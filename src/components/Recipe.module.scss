@@ -1,0 +1,53 @@
+@use '../assets/styles/mixins' as mixin;
+
+.recipe {
+    height: 400px;
+    cursor: pointer;
+    &:hover {
+        img {
+            transform:  scale(1.1);
+        }
+        .title {
+            color: rgba(174, 84, 84, 0.459);
+        }
+    }
+}
+
+.imageContainer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    overflow: hidden;
+    img{
+        transition: 3s transform;
+        width: 100%;
+    }
+    // @include mixin.xs {
+    //     height: auto;
+    //     img{
+    //         max-width: 100%;
+    //         height: auto;
+    //     }
+    // }
+}
+
+.title {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.2s color;
+    i{
+        font-size: 30px;
+    }
+    // @include mixin.xs {
+    //     height: auto;
+    //     font-size: 8px;
+    //     i{
+    //         font-size: 20px;
+    //     }
+    // }
+}

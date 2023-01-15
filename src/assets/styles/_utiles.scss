@@ -1,0 +1,87 @@
+.p-5{
+    padding: 5px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.p-t-20 {
+    padding-top: 10px;
+}
+
+.m-5{
+    margin: 5px;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+.m-20-b {
+    margin-bottom: 20px;
+}
+
+.m-20-t {
+    margin-top: 20px;
+}
+
+.m-10-t {
+    margin-top: 10px;
+}
+
+.m-20-r {
+    margin-right: 20px;
+}
+
+.m-20-l {
+    margin-left: 20px;
+}
+
+.mr-5{
+    margin: 5px;
+}
+
+.mr-10{
+    margin: 10px;
+}
+
+.ml-10{
+    margin: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.calc{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1000vh;
+}
+
+::placeholder{
+    font-family: var(--font-family);
+    color: var(--primary);
+}

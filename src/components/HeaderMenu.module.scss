@@ -1,0 +1,22 @@
+.headerMenu{
+    position: absolute;
+    top: 68px;
+    right: 10px;
+    width: 200px;
+    padding: 10px 15px;
+    background-color: rgba(0,0,0,.5);
+
+    li{
+        padding-left: 20px;
+        border-radius: 20px;
+        transition: 0.3s background-color;
+        color: white;
+        &:hover{
+            background-color: var(--primary);
+            cursor: pointer;
+            color: black;
+            box-shadow: var(--box-shadow);
+        }
+    }
+
+}
