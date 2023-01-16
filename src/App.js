@@ -68,8 +68,7 @@ function App() {
       
 return (
       <div className= {`d-flex flex-column ${styles.appContainer}`}>
-      <h1>TEST-1</h1>
-      <h1>TEST-2</h1>
+        <h1>'NEW TEST NEW'</h1>
         <Header/>
         <Content/>
         <Footer/>
